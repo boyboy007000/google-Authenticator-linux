@@ -5,3 +5,7 @@ Create a bash/shell file, per example, authenticator.sh wherever you want to hav
 /home/username/scripts/authenticator.sh
 Add the code below inside your file authenticator.sh
 
+Blue color : your account’s names. You can type whatever you want to.
+Red color : your secret keys that you get from each one of your service provider and also the 
+
+ref : https://www.analyth.com/en/allarticles-en/gauth-and-oathtool-authenticator-2fa-for-gnulinux/
