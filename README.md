@@ -9,3 +9,4 @@ Blue color : your account’s names. You can type whatever you want to.
 Red color : your secret keys that you get from each one of your service provider and also the 
 
 ref : https://www.analyth.com/en/allarticles-en/gauth-and-oathtool-authenticator-2fa-for-gnulinux/
+ref :https://thirld.com/blog/2016/01/16/generating-two-factor-authentication-codes-on-linux/
