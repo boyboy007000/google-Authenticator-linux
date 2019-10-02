@@ -1,5 +1,5 @@
 #! /bin/bash
-OPTIONS="PTP HDB AWS-HD BTN HDC AnimeByes boyboy ntan baby lastpass mteam Quit"
+OPTIONS="PTP HDB AWS-HD BTN HDC AnimeByes boyboy ntan baby lastpass mteam discord ourbits Quit"
 select opt in $OPTIONS; do
 if [ "$opt" = "PTP" ]; then
 oathtool --base32 --totp  "VQPGBHQVC4CVUAOC" -d 6
@@ -23,6 +23,10 @@ elif [ "$opt" == "lastpass" ]; then
 oathtool --base32 --totp  "A67TXQ4YX7SPS35D" -d 6
 elif [ "$opt" == "mteam" ]; then
 oathtool --base32 --totp  "736ITAUFBMOES7DWNOOTDA3CBQPV7RM3HRP7SYW2OOB2SF5BAUERHFBK4GV774CD" -d 6
+elif [ "$opt" == "discord" ]; then
+oathtool --base32 --totp  "rj7f u2wy jnrt lnhz" -d 6
+elif [ "$opt" == "ourbits" ]; then
+oathtool --base32 --totp  "BTRHBQSE7CFVOAFZ" -d 6
 elif [ "$opt" == "Quit" ]; then
 exit
 else
