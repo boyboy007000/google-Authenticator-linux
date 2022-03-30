@@ -1,5 +1,5 @@
 #! /bin/bash
-OPTIONS="PTP HDB AWS-HD BTN HDC AnimeByes boyboy ntan baby lastpass mteam discord ourbits email_met TTG HDH Pter BHD Quit"
+OPTIONS="PTP HDB AWS-HD BTN HDC AnimeByes boyboy ntan baby lastpass mteam discord ourbits email_met TTG HDH Pter BHD hltbtc freewallet sutrix github Quit"
 select opt in $OPTIONS; do
 if [ "$opt" = "PTP" ]; then
 oathtool --base32 --totp  "VQPGBHQVC4CVUAOC" -d 6
@@ -37,6 +37,14 @@ elif [ "$opt" == "Pter" ]; then
 oathtool --base32 --totp "APZE3EM5543YZMX4" -d 6
 elif [ "$opt" == "BHD" ]; then
 oathtool --base32 --totp "YQMH6B2JISATKA75EX4WQKBUVIH4EOQA" -d 6
+elif [ "$opt" == "hltbtc" ]; then
+oathtool --base32 --totp "WQX4I2GZBIAHRABAULGYF3OQTL4WJ5N3" -d 6
+elif [ "$opt" == "freewallet" ]; then
+oathtool --base32 --totp "EFJC6Q3IOQZCY63PKRXVWNS3JBZXGQ2G" -d 6
+elif [ "$opt" == "sutrix" ]; then
+oathtool --base32 --totp "5esp62m3avlakgljhydinhqu4zfkescl" -d 6
+elif [ "$opt" == "github" ]; then
+oathtool --base32 --totp "NVH6UUE7YM74JKBD" -d 6
 elif [ "$opt" == "Quit" ]; then
 exit
 else
